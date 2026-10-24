@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#05030a">
+<title>NINJA GLITCH</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+<link rel="stylesheet" href="assets/effects/scanlines.css">
+</head>
+<body class="scanlines" data-screen="intro">
+<canvas class="fx" id="fx"></canvas>
+<main class="screen">
+  <div class="stage-art">
+    <div class="bh"><img class="bh-img" src="assets/images/blackhole.webp" alt="" onerror="this.remove()"></div>
+    <div class="ninja-box float"><img src="assets/images/ninja.webp" alt="Ninja" onerror="this.remove()"></div>
+  </div>
+  <h1 class="title glitch" data-text="NINJA GLITCH">NINJA GLITCH</h1>
+  <p class="sub mono" id="intro-sub">INITIALIZING SYSTEM</p>
+  <div class="bar"><i id="bar"></i></div>
+  <div class="pct mono" id="pct">0%</div>
+  <button class="btn alt" id="skip" type="button">SKIP INTRO</button>
+  <footer class="credit-mini mono">DEVELOPER Zakss · DEVELOPER DAKA · DEVELOPER NATHAN</footer>
+</main>
+<script src="storage.js"></script>
+<script src="animation.js"></script>
+<script src="assets/effects/particles.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
